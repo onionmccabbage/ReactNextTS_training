@@ -1,6 +1,6 @@
-## React Documentation
+### React Documentation
 https://react.dev/
-TypeScript Documentation
+### TypeScript Documentation
 https://www.typescriptlang.org/
-Next.js Documentation
+### Next.js Documentation
 https://nextjs.org/

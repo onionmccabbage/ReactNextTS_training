@@ -7,10 +7,13 @@
 
 </head>
 <body>
-    <h2>HTML Props and State</h2>    
-    <input name="n" id="n" value="WibblyWoo" placeholder="enter changes"
-    onchange   = "handleFieldChange()" />
-    <button>Go</button>
+    <h2>HTML Props and State</h2>  
+      <!-- NB we dont really need a form tag-  -->
+    <form>    
+        <input required name="n" id="n" value="WibblyWoo" placeholder="enter changes"
+        onchange   = "handleFieldChange()" />
+        <button>Go</button>
+    </form>
     <hr/>
     <aside id="monitor">
         <p>Watch here...</p>

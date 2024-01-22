@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Props and State</title>
+
+</head>
+<body>
+    <h2>HTML Props and State</h2>    
+    <input name="n" id="n" value="Alpha" placeholder="enter changes"
+    onchange   = "handleFieldChange()" />
+    <button>Go</button>
+    <hr/>
+    <aside id="monitor">
+        <p>Watch here...</p>
+    </aside>
+</body>
+<script>
+    // get a handle on the html elements we are interested in
+    const n = document.getElementById('n')
+    const monitor = document.getElementById('monitor')
+    const handleFieldChange = ()=>{
+        monitor.innerHTML =`<br/>new value (state): ${event.target.value} <br/>original value (prop): ${n.getAttribute('value')}`
+    }
+</script>
+</html>

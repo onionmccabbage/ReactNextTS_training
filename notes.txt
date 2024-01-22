@@ -18,6 +18,7 @@ Monday
   - fix this!!
 - typical workflow and tooling
 - jsx and value injection
+- fundamentals of React: module, export/import, {}, props, state, hooks, effect
 - components, conditional rendering
 - rendering data collections
 - lab exercise

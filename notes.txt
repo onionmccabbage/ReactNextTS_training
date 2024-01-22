@@ -11,9 +11,11 @@ Toby Dussek
 4:30
 
 Monday
-- Welcome, intro and setup
+> Welcome, intro and setup
 - Ref React docs
-- simple first-react-app
+- HTML semantic tags: <header> <footer> <article> <section> <aside> <nav> instead of <div>
+> simple first-react-app
+  - fix this!!
 - typical workflow and tooling
 - jsx and value injection
 - components, conditional rendering
@@ -22,9 +24,12 @@ Monday
 - React in context
 - forms
 
+NB there will be no server-side components
+q - higher-order fns in ES/TS
+
 Tuesday
-- getting ata from external APIs
-- TypeScript
+- getting data from external APIs
+- ES and TypeScript
 - Next.js
 - lab exercise
 

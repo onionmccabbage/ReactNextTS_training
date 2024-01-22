@@ -1,0 +1,8 @@
+Build a new component for bank-notes
+Show all the bank-notes along with suitable text (from the data)
+Also filter for just the new ones
+This can then appear within our 'App' instead of the scientsts
+
+Detail
+- aim for good architecture (separation of concerns, good naming conventions ...)
+- you decide exacly what gets rendered, e.g. a list, a table, just some nicely formatted words...

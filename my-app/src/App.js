@@ -17,7 +17,7 @@ import { getImageUrl } from './util/imageUtil';
 export default function App() {
   // we can write plain old ECMAScript here
   const chemists = people.filter( (person)=>{
-    return person.profession === 'chemist'
+    return person.profession === 'chemist' // = sets equality, == checks equality, === checks identity
   } )
   // then...
   const listItems = chemists.map((person) => { // or people for all of them

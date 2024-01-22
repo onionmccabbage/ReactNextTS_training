@@ -4,26 +4,45 @@ import './App.css';
 // { } lets us import any export
 // no braces needed for default import
 import Profile from './Profile';
-import {dummy,} from './Profile';
+import { dummy, } from './Profile';
+
+import { people } from './static_data/scientists'
+import { getImageUrl } from './util/imageUtil';
 
 // here we can declare other stuff, such as components
 // NB all React component names should begin with a Capital ie PascalCase
 
-export default App;
-
-function App() {
+// this is the most common way to write an export
+export default function App() {
+  // we can write plain pld ECMAScript here
+  const listItems = people.map((person) => {
+    return (
+      <li>
+        <img src={getImageUrl(person)} alt={person.name} title={person.name} />
+      </li>
+    )
+  })
   // React uses JSX to write html within JavaScript
   return (
-    // react provides this for single-nesting
+    // react provides this for single-nesting (it gets removed)
     <>
       {/* we must say 'className' rather than 'class' for CSS */}
-      <div className="App">
-        {/* we can render ANY component */}
-        {/* here we use {} to inject props into React component */}
-        {/* then we declare a static ES object using {} */}
+
+      {/* we can render ANY component */}
+      {/* here we use {} to inject props into React component */}
+      {/* then we declare a static ES object using {} */}
+      {/*         
         <Profile person={ {name:'Alice', source:'https://i.imgur.com/jA8hHMpm.jpg'} } />
         <Profile person={ {name:'Gregor', source:'https://i.imgur.com/7vQD0fPs.jpg'} } />
-      </div>
+         */}
+
+      {/* we will now iterate over the 'people' which were imported from 'scientists.js */}
+      {/* our data is in an array, and arrays have 'map' and 'filter' built-in */}
+      <ul>
+        {/* we use <ul> or <ol> to contain <li> */}
+        {listItems}
+      </ul>
+
 
     </>
   );

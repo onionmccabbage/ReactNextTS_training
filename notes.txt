@@ -17,11 +17,12 @@ Monday
 > simple first-react-app
   - fix this!!
 - typical workflow and tooling
-- jsx and value injection
-- fundamentals of React: module, export/import, {}, props, state, hooks, effect
+> jsx and value injection
+> fundamentals of React: module, export/import, {}, props
+- state, hooks, effect
 - components, conditional rendering
-- rendering data collections
-- lab exercise
+> rendering data collections
+> lab exercise
 - React in context
 - forms
 

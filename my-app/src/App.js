@@ -9,6 +9,7 @@ import { dummy, } from './Profile';
 
 import { people } from './static_data/scientists'
 import { getImageUrl } from './util/imageUtil';
+import BankNotes from './BankNotes';
 
 // here we can declare other stuff, such as components
 // NB all React component names should begin with a Capital ie PascalCase
@@ -37,6 +38,7 @@ export default function App() {
       {/* we must say 'className' rather than 'class' for CSS */}
 
       {/* we can render ANY component */}
+      <BankNotes />
       {/* here we use {} to inject props into React component */}
       {/* then we declare a static ES object using {} */}
       {/*         

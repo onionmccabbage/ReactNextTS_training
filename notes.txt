@@ -3,3 +3,36 @@ React Next.js and TypeScript
 Jan 22-25 2024
 
 Toby Dussek
+
+9:30
+11:00 coffee
+12:30 lunch
+3:00 tea
+4:30
+
+Monday
+- Welcome, intro and setup
+- Ref React docs
+- simple first-react-app
+- typical workflow and tooling
+- jsx and value injection
+- components, conditional rendering
+- rendering data collections
+- lab exercise
+- React in context
+- forms
+
+Tuesday
+- getting ata from external APIs
+- TypeScript
+- Next.js
+- lab exercise
+
+Wednesday
+- routes and data
+- lab exercise
+
+Thursday
+- Charts and tables
+- lab exercise
+

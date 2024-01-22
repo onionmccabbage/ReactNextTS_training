@@ -1,9 +1,9 @@
 export const notes = [{
+    "title": "King Charles III £5 note - front",
     "src": "https://live.staticflickr.com/65535/52573857530_1e256522b0_z.jpg",
     "width": "640",
     "height": "333",
-    "alt": "King Charles III £5 note - front",
-    "title": "King Charles III £5 note - front"
+    "alt": "King Charles III £5 note - front"
 },
 {
     "title": "King Charles III £10 note - front",
@@ -27,33 +27,18 @@ export const notes = [{
     "alt": "King Charles III £50 note - front"
 },
 {
-    "title": "£50 front - polymer",
-    "src": "https://live.staticflickr.com/65535/51069593723_5c31509dd5_z.jpg",
+    "title": "£5 front - polymer",
+    "src": "https://live.staticflickr.com/7675/27136331630_32fd02e7be_z.jpg",
     "width": "640",
-    "height": "342",
-    "alt": "£50 front - polymer"
+    "height": "343",
+    "alt": "£5 front - polymer"
 },
 {
-    "title": "£50 back - polymer",
-    "src": "https://live.staticflickr.com/65535/51001108075_95f2e9514f_z.jpg",
+    "title": "£5 back - polymer",
+    "src": "https://live.staticflickr.com/7591/26805091293_ddfbb18e6c_z.jpg",
     "width": "640",
-    "height": "342",
-    "alt": "£50 back - polymer"
-},
-
-{
-    "title": "£20 back - polymer",
-    "src": "https://live.staticflickr.com/65535/48874740572_0063192a55_z.jpg",
-    "width": "640",
-    "height": "336",
-    "alt": "£20 back - polymer"
-},
-{
-    "title": "£20 front - polymer",
-    "src": "https://live.staticflickr.com/65535/48874011048_f2f2e5ef72_z.jpg",
-    "width": "640",
-    "height": "336",
-    "alt": "£20 front - polymer"
+    "height": "343",
+    "alt": "£5 back - polymer"
 },
 {
     "title": "£10 front - polymer",
@@ -70,17 +55,31 @@ export const notes = [{
     "alt": "£10 back - polymer"
 },
 {
-    "title": "£5 front - polymer",
-    "src": "https://live.staticflickr.com/7675/27136331630_32fd02e7be_z.jpg",
+    "title": "£20 back - polymer",
+    "src": "https://live.staticflickr.com/65535/48874740572_0063192a55_z.jpg",
     "width": "640",
-    "height": "343",
-    "alt": "£5 front - polymer"
+    "height": "336",
+    "alt": "£20 back - polymer"
 },
 {
-    "title": "£5 back - polymer",
-    "src": "https://live.staticflickr.com/7591/26805091293_ddfbb18e6c_z.jpg",
+    "title": "£20 front - polymer",
+    "src": "https://live.staticflickr.com/65535/48874011048_f2f2e5ef72_z.jpg",
     "width": "640",
-    "height": "343",
-    "alt": "£5 back - polymer"
+    "height": "336",
+    "alt": "£20 front - polymer"
+},
+{
+    "title": "£50 front - polymer",
+    "src": "https://live.staticflickr.com/65535/51069593723_5c31509dd5_z.jpg",
+    "width": "640",
+    "height": "342",
+    "alt": "£50 front - polymer"
+},
+{
+    "title": "£50 back - polymer",
+    "src": "https://live.staticflickr.com/65535/51001108075_95f2e9514f_z.jpg",
+    "width": "640",
+    "height": "342",
+    "alt": "£50 back - polymer"
 }
 ]

@@ -19,7 +19,7 @@ Monday
 - typical workflow and tooling
 > jsx and value injection
 > fundamentals of React: module, export/import, {}, props
-- state, hooks, effect
+- state (and forms), hooks, effect
 - components, conditional rendering
 > rendering data collections
 > lab exercise

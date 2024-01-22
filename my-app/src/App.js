@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { Fragment } from 'react'
 // we can import our own modules
 // { } lets us import any export
 // no braces needed for default import
@@ -17,9 +18,12 @@ export default function App() {
   // we can write plain pld ECMAScript here
   const listItems = people.map((person) => {
     return (
-      <li>
+      // any repeating elements should take a unique key
+      // if we reaely want NO tag around our content, use a Fragment (with key)
+      <Fragment key={person.id}>
         <img src={getImageUrl(person)} alt={person.name} title={person.name} />
-      </li>
+        <p>{person.name} known for {person.accomplishment}</p>
+      </Fragment>
     )
   })
   // React uses JSX to write html within JavaScript

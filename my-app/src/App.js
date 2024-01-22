@@ -19,7 +19,10 @@ function App() {
       {/* we must say 'className' rather than 'class' for CSS */}
       <div className="App">
         {/* we can render ANY component */}
-        <Profile />
+        {/* here we use {} to inject props into React component */}
+        {/* then we declare a static ES object using {} */}
+        <Profile person={ {name:'Alice', source:'https://i.imgur.com/jA8hHMpm.jpg'} } />
+        <Profile person={ {name:'Gregor', source:'https://i.imgur.com/7vQD0fPs.jpg'} } />
       </div>
 
     </>

@@ -15,8 +15,12 @@ import { getImageUrl } from './util/imageUtil';
 
 // this is the most common way to write an export
 export default function App() {
-  // we can write plain pld ECMAScript here
-  const listItems = people.map((person) => {
+  // we can write plain old ECMAScript here
+  const chemists = people.filter( (person)=>{
+    return person.profession === 'chemist'
+  } )
+  // then...
+  const listItems = chemists.map((person) => { // or people for all of them
     return (
       // any repeating elements should take a unique key
       // if we reaely want NO tag around our content, use a Fragment (with key)

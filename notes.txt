@@ -37,6 +37,11 @@ Tuesday
 - ES and TypeScript
 - Next.js
 - lab exercise
+- types and generics
+- load simple data (fetch)
+- using .then or async
+- axios
+- do it again with TS
 
 Wednesday
 - Charts and tables

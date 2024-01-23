@@ -10,31 +10,39 @@ import { dummy, } from './Profile';
 import { people } from './static_data/scientists'
 import { getImageUrl } from './util/imageUtil';
 import BankNotes from './BankNotes';
+import BrownComp from './BrownComp';
 
 // here we can declare other stuff, such as components
 // NB all React component names should begin with a Capital ie PascalCase
 
 // this is the most common way to write an export
 export default function App() {
+  const xval = 1, yval = true
+  const doStuff = (msg = 'Works') => {
+    alert(msg)
+  }
   // we can write plain old ECMAScript here
-  const chemists = people.filter( (person)=>{
+  const chemists = people.filter((person) => {
     return person.profession === 'chemist' // = sets equality, == checks equality, === checks identity
-  } )
+  })
   // then...
   const listItems = chemists.map((person) => { // or people for all of them
     return (
       // any repeating elements should take a unique key
-      // if we reaely want NO tag around our content, use a Fragment (with key)
-      <Fragment key={person.id}>
-        <img src={getImageUrl(person)} alt={person.name} title={person.name} />
-        <p>{person.name} known for {person.accomplishment}</p>
-      </Fragment>
+        // if we reaely want NO tag around our content, use a Fragment (with key)
+        <Fragment key={person.id}>
+          <img src={getImageUrl(person)} alt={person.name} title={person.name} />
+          <p>{person.name} known for {person.accomplishment}</p>
+        </Fragment>
     )
   })
   // React uses JSX to write html within JavaScript
   return (
     // react provides this for single-nesting (it gets removed)
     <>
+      {/* <BrownComp x={xval} y={yval} action={()=>{alert("WOW")}} /> */}
+      {/* <BrownComp x={xval} y={yval} action={() => { doStuff('Again') }} /> */}
+      <BrownComp x={xval} y={yval} action={doStuff} />
       {/* we must say 'className' rather than 'class' for CSS */}
 
       {/* we can render ANY component */}

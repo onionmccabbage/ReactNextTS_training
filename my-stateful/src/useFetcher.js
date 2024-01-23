@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 // many ways we can get external data
 async function logMovies() {
+    // this is using Promises
     const response = await fetch("https://jsonplaceholder.typicode.com/photos");
     const photos = await response.json();
     console.log(photos);
@@ -35,6 +36,8 @@ const usePhotoFetcher = () => {
 
 
     }
+    // useEffect will ONLY get the data on component paint or when a dependency changes
+    // so several components can share t his without innefficient fetching
     useEffect(
         fetchData(whichPhoto) // call this local function
         // we can declare an array of dependecies for this effect

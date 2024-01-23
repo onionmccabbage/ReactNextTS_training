@@ -40,6 +40,7 @@ Tuesday
 - types and generics
 - load simple data (fetch)
 - using .then or async
+- modern React ways to fetch data
 - axios
 - do it again with TS
 

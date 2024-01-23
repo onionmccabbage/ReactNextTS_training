@@ -26,6 +26,9 @@ Monday
 - React in context
 - forms
 
+Monday recording link
+https://ftraining-my.sharepoint.com/personal/toby_d_frameworktraining_co_uk/Documents/Recordings/React%20and%20Next.js%20Training%20Course%20-%2022-25%20January%202024%20-%20Bank%20of%20England-20240122_151448-Meeting%20Recording.mp4?web=1&referrer=Teams.TEAMS-ELECTRON&referrerScenario=MeetingChicletGetLink.view.view
+
 NB there will be no server-side components
 q - higher-order fns in ES/TS
 
@@ -36,10 +39,11 @@ Tuesday
 - lab exercise
 
 Wednesday
+- Charts and tables
 - routes and data
 - lab exercise
 
 Thursday
-- Charts and tables
+- overview of server-side components
 - lab exercise
 

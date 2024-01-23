@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // modern and existing ES
+        var a = 1 // avoid if poss
+        let b = 2 // do this
+        const c = 3 // also do this
+        // functions
+        function fnA(a, b, ...args){ // rest operator (must be the last one)
+            // we have a 'this' scope
+            if (len(args)>0){
+                //
+            }
+        }
+        // new syntax
+        const fnB = (x)=> {return x*x } // there is no 'this' scope
+        // destructuring
+        const values = [1,4,7,23,9,3]
+        const other = [...values] // the ellipsis is the 'spread' operator
+        // the BEST way to constuct strings
+        const name = 'Ethel'
+        const str = `Hello ${name}` // back-tick syntax or sting interpolation
+
+    </script>
+</body>
+</html>

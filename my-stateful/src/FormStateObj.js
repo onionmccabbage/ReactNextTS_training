@@ -11,7 +11,7 @@ function handleFirstNameChange(event){ // NB the event is passed anyway!!
     // we must call the React state function 'setPerson' in order to update the state
     // NB React always TOTALLY REPLACES the state (it does NOT mutate it)
     // setPerson({firstName:event.target.value, lastName:person.lastName, level:person.level})
-    /// ...person will desteructure the existing 'person' into its elemental parts
+    /// ...person will destructure the existing 'person' into its elemental parts
     setPerson({...person, firstName:event.target.value})
 }
 

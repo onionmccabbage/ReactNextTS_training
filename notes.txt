@@ -36,7 +36,8 @@ Tuesday
 - getting data from external APIs
 > ES and TypeScript
 - Next.js
-- lab exercise
+> lab exercise
+- passing data from one component to a sibling component
 - types and generics
 > load simple data (fetch)
 > using .then or async

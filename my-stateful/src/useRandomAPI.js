@@ -22,8 +22,8 @@ const useRandomAPI = (seed='users') => {
         };
 
         fetchData(seed);
-    }, []); // absolutely no dependency
-    // }, [seed]); // responds to changes in seed
+    // }, []); // absolutely no dependency
+    }, [seed]); // responds to changes in seed
 
     return {
         data,

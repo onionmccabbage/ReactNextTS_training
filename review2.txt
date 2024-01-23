@@ -1,0 +1,19 @@
+Review2
+=======
+
+Options
+- Build a spa to retrieve photos or users or albums ...
+- Build a spa to retrieve Bank details... use Next without TS
+  - could add to existing non-TS app
+  - or generate a new Next.js app WITHOUT ts
+- do it with TS
+
+If Time
+In all cases, add form fields (not a form) to choose parameters (e.g. ID or category)
+
+Some URLs
+https://jsonplaceholder.typicode.com/albums/${albumId}/photos/
+https://ipapi.co/  (choose 'banks')
+
+After - show and tell
+

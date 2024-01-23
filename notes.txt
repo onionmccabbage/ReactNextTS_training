@@ -34,14 +34,14 @@ q - higher-order fns in ES/TS
 
 Tuesday
 - getting data from external APIs
-- ES and TypeScript
+> ES and TypeScript
 - Next.js
 - lab exercise
 - types and generics
-- load simple data (fetch)
-- using .then or async
+> load simple data (fetch)
+> using .then or async
 - modern React ways to fetch data
-- axios
+> axios
 - do it again with TS
 
 Wednesday

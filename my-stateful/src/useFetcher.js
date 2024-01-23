@@ -13,17 +13,27 @@ const usePhotoFetcher = () => {
     const [data, setData] = useState([])
     let whichPhoto = 1
     // we make use of useEffect (from React) for async unpredictable outcomes
-    const fetchData = (whichPhoto=1) => {
-        fetch(`https://jsonplaceholder.typicode.com/photos/${whichPhoto}`)
-            .then((r) => {
-                console.log(r.data) // data?
-            })
-            .catch((err) => {
-                console.log(err)
-            })
-            .finally(() => {
-                // always runs
-            })
+    // we write 'async' to say this function may run asynchronously
+    const fetchData = async (whichPhoto=1) => {
+        // fetch(`https://jsonplaceholder.typicode.com/photos/${whichPhoto}`)
+        //     .then((r) => {
+        //         console.log(r.data) // data?
+        //     })
+        //     .catch((err) => {
+        //         console.log(err)
+        //     })
+        //     .finally(() => {
+        //         // always runs
+        //     })
+        // the more modern way is try-catch and async await
+        try {
+            // 'await' makes it clear we may not get a response immediately
+            const data = await fetch(`https://jsonplaceholder.typicode.com/photos/${whichPhoto}`)
+        } catch(err){
+            console.log(err)
+        }
+
+
     }
     useEffect(
         fetchData(whichPhoto) // call this local function

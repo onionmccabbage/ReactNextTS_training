@@ -1,3 +1,5 @@
+"use client"
+
 // swr provides a hook called userSWR
 import useSWR from "swr";
 // we will be fetching some data
@@ -18,7 +20,7 @@ function Profile() {
         <p>{data[0].swift_bic}</p>
       </div>
     )
-  }
+}
   
   export default function Home() {
     return (

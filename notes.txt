@@ -48,9 +48,11 @@ Wednesday
 > robust solutions for passing form state to child components
 > state, lifting state up and what was Redux all about? (reducers)
 > types and generics
+  - also see https://www.typescriptlang.org/docs/handbook/2/generics.html#generic-constraints
 - modern React ways to fetch data - react query, swr, zustand / jotai / query react etc.
 - routes and data (passing on the URL as path and as query)
 - do it again with TS
+  - swr and react-query (tantastic query)
 > npm and security
 > React Web Tools
 - lab exercise
@@ -58,5 +60,6 @@ Wednesday
 Thursday
 - overview of server-side components
 - routing: various options available
+- production and deplyment!
 - lab exercise
 

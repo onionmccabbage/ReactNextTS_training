@@ -3,14 +3,13 @@ import { useState } from "react";
 import styles from "./page.module.css";
 
 import useSWR from "swr";
-import { Url } from "next/dist/shared/lib/router/router";
 
 // custom types
 type params = { city: string, country: string }
 
-const fetcher = (a:Url) => { return (fetch(a).then((res) => res.json())) }
+const fetcher = (a:any) => { return (fetch(a).then((res) => res.json())) }
 
-function Weather({weatherUrl}:{weatherUrl:Url}) {
+function Weather({weatherUrl}:{weatherUrl:string}) {
   const { data, error, isLoading } = useSWR(weatherUrl, fetcher)
   if (error) return <div>Failed to load: {error}</div>
   if (!data) return <div>Loading...</div>
@@ -23,7 +22,7 @@ function Weather({weatherUrl}:{weatherUrl:Url}) {
   )
 }
 
-const UserFields = ({ params, handleParams, getWeather }: { params:params, handleParams: React.ChangeEventHandler<HTMLFormElement>, getWeather:React.MouseEventHandler<HTMLButtonElement> }) => {
+const UserFields = ({ params, handleParams, getWeather }: { params:params, handleParams: React.ChangeEventHandler<HTMLInputElement>, getWeather:React.MouseEventHandler<HTMLButtonElement> }) => {
   return (
     <>
       <input placeholder="City" required name="city" value={params.city} onChange={handleParams} />
@@ -37,7 +36,7 @@ export default function Home() {
   const apiKey = `48f2d5e18b0d2bc50519b58cce6409f1` // good for 60 requests per second
   const [params, setParams] = useState({ city: 'hull', country: 'uk' })
   const [weatherUrl, setWeatherUrl] = useState(`https://api.openweathermap.org/data/2.5/weather?q=${params.city},${params.country}&units=metric&APPID=${apiKey}`)
-  const handleParams = (event: React.FormEvent<HTMLInputElement>) => { 
+  const handleParams:React.ChangeEventHandler<HTMLInputElement> = (event) => { 
     if (event.currentTarget.name == 'city') {
       setParams({ ...params, city: event.currentTarget.value })
     } else if (event.currentTarget.name == 'country') {

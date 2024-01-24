@@ -1,11 +1,13 @@
 React Next and TypeScript Review 3
 ==================================
 Build a single-page weather app (start a new app for this)
+- if using next.js remember to say "use client" in the components
 Use the API at 
   https://api.openweathermap.org/data/2.5/weather?q=hull,uk&APPID=48f2d5e18b0d2bc50519b58cce6409f1
   (this includes my API key, good for 60 requests per minute. You can sign up for free for your own API key)
 
 Aim for good architecture with modular construction 
+Choose where state should be managed
 Choose a strategy to fetch the API data
 
 Details
@@ -15,6 +17,7 @@ Details
 - From the response.json, show the weather description and temperature
 	weather[0][description] and main.temp
 - You may choose to show other data members
+- Make use of the React Dev Tools where necessary
 
 Optional
 --------
@@ -27,3 +30,9 @@ Optional
   (use the cached values if the same request is made within two minutes)
 - As weather reports are retrieved, show them nicely in a table
 - And/or render a chart showing each city and the temperature
+
+If Time
+-------
+- Consider features of chart or table to make them more interactive (e.g. sort/filter)
+- use the API at https://ipapi.co to find hte users location then automatically retrieve the weather
+- Make the weather retrieval happen automatically on a time-basis

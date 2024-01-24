@@ -12,18 +12,18 @@ Toby Dussek
 
 Monday
 > Welcome, intro and setup
-- Ref React docs
-- HTML semantic tags: <header> <footer> <article> <section> <aside> <nav> instead of <div>
+> Ref React docs
+> HTML semantic tags: <header> <footer> <article> <section> <aside> <nav> instead of <div>
 > simple first-react-app
-  - fix this!!
-- typical workflow and tooling
+  > fix this!!
+> typical workflow and tooling
 > jsx and value injection
 > fundamentals of React: module, export/import, {}, props
-- state (and forms), hooks, effect
-- components, conditional rendering
+> state (and forms), hooks, effect
+> components, conditional rendering
 > rendering data collections
 > lab exercise
-- React in context
+> React in context
 - forms
 
 Monday recording link
@@ -33,9 +33,9 @@ NB there will be no server-side components
 q - higher-order fns in ES/TS
 
 Tuesday
-- getting data from external APIs
+> getting data from external APIs
 > ES and TypeScript
-- Next.js
+> Next.js
 > lab exercise
 > load simple data (fetch)
 > using .then or async
@@ -43,19 +43,20 @@ Tuesday
 
 Wednesday
 > existing solutions/components Charts and tables (3rd party)
-- passing data from one component to a sibling component
+> passing data from one component to a sibling component
 > fixed example passing fn down and handler up
 > robust solutions for passing form state to child components
 > state, lifting state up and what was Redux all about? (reducers)
-- types and generics
+> types and generics
 - modern React ways to fetch data - react query, swr, zustand / jotai / query react etc.
 - routes and data (passing on the URL as path and as query)
 - do it again with TS
-- npm and security
+> npm and security
 > React Web Tools
 - lab exercise
 
 Thursday
 - overview of server-side components
+- routing: various options available
 - lab exercise
 

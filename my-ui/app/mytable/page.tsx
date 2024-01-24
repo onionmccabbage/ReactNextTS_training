@@ -1,4 +1,7 @@
 "use client"
+import { useTheme } from '@table-library/react-table-library/theme';
+import { getTheme } from '@table-library/react-table-library/baseline';
+
 import { CompactTable } from '@table-library/react-table-library/compact'
 
 const nodes = [
@@ -53,5 +56,6 @@ const COLUMNS = [ //            type :any should be tightened up later
 
   export default function Comp(){
     const data = { nodes }
-    return <CompactTable columns={COLUMNS} data={data}  />
+    const theme = useTheme(getTheme());
+    return <CompactTable columns={COLUMNS} data={data} theme={theme} />
   }

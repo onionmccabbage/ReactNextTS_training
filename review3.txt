@@ -8,7 +8,7 @@ Use the API at
 
 Aim for good architecture with modular construction 
 Choose where state should be managed
-Choose a strategy to fetch the API data
+Choose a strategy to fetch the API data (react-query, swr, axios, ....)
 
 Details
 -------
@@ -25,7 +25,7 @@ Optional
 - Ensure the weather data is type-safe (e.g. write a type, interface or class)
 - validate user input, either as non-empty strings (required) or as permitted values
 - persist the most-recent user options so that they are retrieved when the page first loads
-  (Use them to pre-populate the form fields)
+  (Use them to pre-populate the form fields) (use localStorage)
 - consider a strategy to cache the weather response for a particular request
   (use the cached values if the same request is made within two minutes)
 - As weather reports are retrieved, show them nicely in a table
@@ -34,5 +34,5 @@ Optional
 If Time
 -------
 - Consider features of chart or table to make them more interactive (e.g. sort/filter)
-- use the API at https://ipapi.co to find hte users location then automatically retrieve the weather
-- Make the weather retrieval happen automatically on a time-basis
+- use the API at https://ipapi.co to find the users location then automatically retrieve the weather
+- Make the weather retrieval happen automatically on a time-basis (useEffect)

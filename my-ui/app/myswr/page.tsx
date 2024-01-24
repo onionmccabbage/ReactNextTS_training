@@ -7,13 +7,13 @@ const fetcher = (a:any)=>{ return (fetch(a).then((res)=>res.json()))}
 // const fetcher = url => axios.get(url).then(res => res.data)
 
 function Profile() {
-    const { data, error } = useSWR('https://random-data-api.com/api/v2/banks?size=3', fetcher)
+    // const { data, error } = useSWR('https://random-data-api.com/api/v2/banks?size=3', fetcher)
     // or there's 3 possible states of a request: "loading", "ready", or "error".
-    // const { data, error, isLoading } = useSWR('https://random-data-api.com/api/v2/banks?size=3', fetcher)
+    const { data, error, isLoading } = useSWR('https://random-data-api.com/api/v2/banks?size=3', fetcher)
     if (error) return <div>Failed to load</div>
     if (!data) return <div>Loading...</div>
     // or
-    // if (isLoading) return <div>loading...</div>
+    if (isLoading) return <div>loading...</div>
     return (
       <div>
         <h1>{data[0].bank_name}</h1>

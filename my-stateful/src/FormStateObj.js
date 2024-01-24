@@ -4,7 +4,7 @@ import { useState } from 'react' // this will be resolved by the toolchain
 export default function Form(){
     // this form will have state (its own internal memory)
     // the initial state may be ANY structure - simple or complex
-    // we have a a 'person' getter-function and a 'setPerson' setter function
+    // we have a 'person' getter-function and a 'setPerson' setter function
     const [person, setPerson] = useState({firstName:'Ethel', lastName:'Skronk', level:'admin'})
 
 function handleFirstNameChange(event){ // NB the event is passed anyway!!

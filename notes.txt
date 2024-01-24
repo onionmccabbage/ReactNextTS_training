@@ -51,6 +51,8 @@ Wednesday
 - modern React ways to fetch data - react query, swr, zustand / jotai / query react etc.
 - routes and data (passing on the URL as path and as query)
 - do it again with TS
+- npm and security
+- React Web Tools
 - lab exercise
 
 Thursday

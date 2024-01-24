@@ -1,11 +1,12 @@
 import { useState } from 'react' // this will be resolved by the toolchain
 
 // NB Form not form
-export default function Form(){
+// we can pass the first name as a prop 'fn'
+export default function Form({fn}){
     // this form will have state (its own internal memory)
     // the initial state may be ANY structure - simple or complex
     // we have a 'person' getter-function and a 'setPerson' setter function
-    const [person, setPerson] = useState({firstName:'Ethel', lastName:'Skronk', level:'admin'})
+    const [person, setPerson] = useState({firstName:fn, lastName:'Skronk', level:'admin'})
 
 function handleFirstNameChange(event){ // NB the event is passed anyway!!
     // we must call the React state function 'setPerson' in order to update the state

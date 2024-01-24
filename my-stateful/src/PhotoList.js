@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import useFetchData from './useAlbumFetcher.js'
 
 // an abstracted version
-const PhotoList = () => {
+const PhotoList = ({fn}) => {
     const [whichAlbum, setWhichAlbum] = useState(1)
     const {
         data,

@@ -19,6 +19,7 @@ import BrownComp from './BrownComp';
 export default function App() {
   const xval = 1, yval = true
   const doStuff = (msg = 'Works') => {
+    // NB we avoid alert in the modern web
     alert(msg)
   }
   // we can write plain old ECMAScript here

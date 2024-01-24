@@ -1,6 +1,6 @@
 // the props are desctructured like this
 import { useEffect, useState } from "react"
-
+// remember we can inject any immutable props into our component
 export default function BrownComp ({x,y,action}){
 
     // useEffect(()=>{

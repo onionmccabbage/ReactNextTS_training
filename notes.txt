@@ -42,7 +42,7 @@ Tuesday
 > axios
 
 Wednesday
-- existing solutions/components Charts and tables (3rd party)
+> existing solutions/components Charts and tables (3rd party)
 - passing data from one component to a sibling component
 - fixed example passing fn down and handler up
 - robust solutions for passing form state to child components
@@ -52,7 +52,7 @@ Wednesday
 - routes and data (passing on the URL as path and as query)
 - do it again with TS
 - npm and security
-- React Web Tools
+> React Web Tools
 - lab exercise
 
 Thursday

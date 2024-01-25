@@ -26,11 +26,7 @@ Monday
 > React in context
 - forms
 
-Monday recording link
-https://ftraining-my.sharepoint.com/personal/toby_d_frameworktraining_co_uk/Documents/Recordings/React%20and%20Next.js%20Training%20Course%20-%2022-25%20January%202024%20-%20Bank%20of%20England-20240122_151448-Meeting%20Recording.mp4?web=1&referrer=Teams.TEAMS-ELECTRON&referrerScenario=MeetingChicletGetLink.view.view
-
 NB there will be no server-side components
-q - higher-order fns in ES/TS
 
 Tuesday
 > getting data from external APIs
@@ -48,18 +44,33 @@ Wednesday
 > robust solutions for passing form state to child components
 > state, lifting state up and what was Redux all about? (reducers)
 > types and generics
-  - also see https://www.typescriptlang.org/docs/handbook/2/generics.html#generic-constraints
-- modern React ways to fetch data - react query, swr, zustand / jotai / query react etc.
+  > also see https://www.typescriptlang.org/docs/handbook/2/generics.html#generic-constraints
+> modern React ways to fetch data - react query, swr, zustand / jotai / query react etc.
 - routes and data (passing on the URL as path and as query)
-- do it again with TS
-  - swr and react-query (tantastic query)
+> do it again with TS
+  > swr and react-query (tantastic query)
 > npm and security
 > React Web Tools
-- lab exercise
+> lab exercise
+> remember - if a form field seems immutable you need to make is 'controlled'
+           - ie, value={} and onChange={}
 
 Thursday
+- finish looking at a solution
 - overview of server-side components
 - routing: various options available
+- memory - lazy/eager instantiation
 - production and deplyment!
+q - higher-order fns in ES/TS
+- form validation
 - lab exercise
+
+
+
+
+
+
+
+
+feedback link: https://forms.microsoft.com/e/2L4yavFQHP
 

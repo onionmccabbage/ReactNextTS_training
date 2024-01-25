@@ -1,4 +1,4 @@
-Review 4
+Review 4 40 minutes until 4:05 then show-and-tell
 ========
 Either continue with the 'Weather' app or build a new app as follows:
 Ask the user for a category and a number
@@ -6,8 +6,10 @@ Request data from the API at https://swapi.dev/api/people/1/
 (replace 'people' with the chosen category and '1' with the chosen number)
 
 Focus on the form and validation:
-- Category may be 'people', 'planets', 'species'
+- Category may be 'people', 'planets', 'species' (maybe validate an input)
 - Number can be 1 to 10 (though some categories may not cover all numbers)
+
+also feel free to send delete or post requests to jsonplaceholder.typicode.com
 
 Show the 'name' from the resulting data on the page
 

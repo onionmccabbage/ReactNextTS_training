@@ -71,7 +71,8 @@ q - higher-order fns in ES/TS
 - CRUD...
 - lab exercise
 
-
+NB really useful page to generate interface from JSON
+https://jvilk.com/MakeTypes/
 
 
 

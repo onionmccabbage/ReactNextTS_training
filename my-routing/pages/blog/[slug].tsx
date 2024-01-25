@@ -1,5 +1,5 @@
 
-// this fil is <proj>/pages/blog/
+// this file is <proj>/pages/blog/
 
 import { useRouter } from "next/router";
 

@@ -18,4 +18,4 @@ Each category returns different data structures
 - species returns name, language etc
 Implement a strategy to show the relevant data based on the category
 - could use routing
-- could use class/interface types
+- could use class/interface types descended from a top-level 'swapi' class

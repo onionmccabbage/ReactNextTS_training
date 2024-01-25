@@ -58,9 +58,12 @@ Wednesday
 Thursday
 > finish looking at a solution
 > overview of server-side components
+  - api data can still be ANY external API
+  - any DB interactions happen on the server
+  - pre-render and pre-create components and data structures
 > routing: various options available
 > memory - lazy/eager instantiation
-- production and deployment!
+> production and deployment!
 q - higher-order fns in ES/TS
 - form validation
 - lab exercise

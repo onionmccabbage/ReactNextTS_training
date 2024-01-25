@@ -1,11 +1,4 @@
-/*-------------------------------------------------------------------
-|  🐼 React FC Form
-|
-|  🐯 Purpose: RENDERS FORM CONTEXT AND INPUTS
-|
-|  🐸 Returns:  JSX
-*-------------------------------------------------------------------*/
-
+// see https://www.freecodecamp.org/news/how-to-validate-forms-in-react/#conclusion
 import { Input } from './components'
 import { FormProvider, useForm } from 'react-hook-form'
 import {

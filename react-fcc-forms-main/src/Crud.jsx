@@ -63,6 +63,7 @@ export default function MyCrud(){
     const {response, setResponse} = useState('watch here...')
     return (
         <>
+        <h3>See console for output of CRUD operations</h3>
         <button onClick={myPost}>Post</button> |&nbsp;
         <button onClick={myPut}>Put</button> |&nbsp;
         <button onClick={myDelete}>Delete</button> |&nbsp;

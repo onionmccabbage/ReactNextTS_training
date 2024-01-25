@@ -11,6 +11,7 @@ import { people } from './static_data/scientists'
 import { getImageUrl } from './util/imageUtil';
 import BankNotes from './BankNotes';
 import BrownComp from './BrownComp';
+import MyForm from './myform';
 
 // here we can declare other stuff, such as components
 // NB all React component names should begin with a Capital ie PascalCase
@@ -41,6 +42,7 @@ export default function App() {
   return (
     // react provides this for single-nesting (it gets removed)
     <>
+      <MyForm />
       {/* <BrownComp x={xval} y={yval} action={()=>{alert("WOW")}} /> */}
       {/* <BrownComp x={xval} y={yval} action={() => { doStuff('Again') }} /> */}
       <BrownComp x={xval} y={yval} action={doStuff} />

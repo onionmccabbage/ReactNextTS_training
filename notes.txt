@@ -56,11 +56,11 @@ Wednesday
            - ie, value={} and onChange={}
 
 Thursday
-- finish looking at a solution
-- overview of server-side components
-- routing: various options available
-- memory - lazy/eager instantiation
-- production and deplyment!
+> finish looking at a solution
+> overview of server-side components
+> routing: various options available
+> memory - lazy/eager instantiation
+- production and deployment!
 q - higher-order fns in ES/TS
 - form validation
 - lab exercise

@@ -1,0 +1,21 @@
+Review 4
+========
+Either continue with the 'Weather' app or build a new app as follows:
+Ask the user for a category and a number
+Request data from the API at https://swapi.dev/api/people/1/
+(replace 'people' with the chosen category and '1' with the chosen number)
+
+Category may be 'people', 'planets', 'species'
+Number can be 1 to 10 (though some categories may not cover all numbers)
+
+Show the 'name' from the resulting data on the page
+
+Optional
+--------
+Each category returns different data structures
+- people returns name, eye-color etc
+- planets returns name, roational-period etc
+- species returns name, language etc
+Implement a strategy to show the relevant data based on the category
+- could use routing
+- could use class/interface types

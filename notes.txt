@@ -66,6 +66,8 @@ Thursday
 > production and deployment!
 q - higher-order fns in ES/TS
 - form validation
+  react-hook-form, zod
+  https://www.freecodecamp.org/news/how-to-validate-forms-in-react/
 - CRUD...
 - lab exercise
 

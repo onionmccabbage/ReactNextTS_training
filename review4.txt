@@ -5,8 +5,9 @@ Ask the user for a category and a number
 Request data from the API at https://swapi.dev/api/people/1/
 (replace 'people' with the chosen category and '1' with the chosen number)
 
-Category may be 'people', 'planets', 'species'
-Number can be 1 to 10 (though some categories may not cover all numbers)
+Focus on the form and validation:
+- Category may be 'people', 'planets', 'species'
+- Number can be 1 to 10 (though some categories may not cover all numbers)
 
 Show the 'name' from the resulting data on the page
 

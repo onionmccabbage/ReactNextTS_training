@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { Navigation } from "./components/navigation";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,7 +18,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       {/* add other top-level browser stuff here */}
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {/* we can add a navigation bar - adding it here means it will persist */}
+        <Navigation />
+        {children}</body>
     </html>
   );
 }
